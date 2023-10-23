@@ -56,10 +56,10 @@ I'd like to express my gratitude to Frontend Mentor for providing this challenge
 
 ## Feedback
 
-If you have any feedback or anything you would like to share, please reach out to me at 
+If you have any feedback or anything you would like to share, please reach out to me at 👇
 
-<div style="display: flex; flex-direction:column; align-items: center; justify-content: center; margin-right: 10px; margin-left:10px;">
-  <a href="mailto:cerennssahinn@gmail.com" style="margin-right: 10px;">
+<div style="display: flex; flex-direction:column; align-items: center; justify-content: center; margin-right: 10px; margin-left:10px; width:500px; height:500px; ">
+  <a href="mailto:cerennssahinn@gmail.com" style="margin-right: 10px; text-decoration: none;">
     <img src="mail_dynamic_gradient.png" alt="Email Me" width="50">
   </a>
   <a href="https://www.linkedin.com/in/ceren-sahin/">
