@@ -60,6 +60,6 @@ If you have any feedback or anything you would like to share, please reach out t
 
 
 
-⚪️ <a href="mailto:cerennssahinn@gmail.com">Write to Me 📮</a>
+<a href="mailto:cerennssahinn@gmail.com">Write to Me 📮</a>
 <br>
-⚫️ <a href="https://www.linkedin.com/in/ceren-sahin/">Connect with Me 👋 </a>
+<a href="https://www.linkedin.com/in/ceren-sahin/">Connect with Me 👋 </a>
