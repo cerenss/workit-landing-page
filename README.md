@@ -56,7 +56,7 @@ I'd like to express my gratitude to Frontend Mentor for providing this challenge
 
 ## Feedback
 
-If you have any feedback or anything you would like to share, please reach out to me at 👇
+If you have any feedback or anything you would like to share, please 👇
 
 
 
