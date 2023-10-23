@@ -58,7 +58,7 @@ I'd like to express my gratitude to Frontend Mentor for providing this challenge
 
 If you have any feedback or anything you would like to share, please reach out to me at 
 
-<div style="display: flex; align-items: center; justify-content: space-around;">
+<div style="display: flex; align-items: center; justify-content: space-evenly; width: 100%; margin-right: 10px; margin-left:10px;">
   <a href="mailto:cerennssahinn@gmail.com" style="margin-right: 10px;">
     <img src="mail_dynamic_gradient.png" alt="Email Me" width="50">
   </a>
