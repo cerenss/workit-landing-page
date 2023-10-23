@@ -58,10 +58,6 @@ I'd like to express my gratitude to Frontend Mentor for providing this challenge
 
 If you have any feedback or anything you would like to share, please reach out to me at 👇
 
-  <a href="mailto:cerennssahinn@gmail.com">⚪️</a>
-  <a href="https://www.linkedin.com/in/ceren-sahin/">⚫️</a>
-
-⚪️ cerennssahinn@gmail.com 
-⚫️ www.linkedin.com/in/ceren-sahin/
-
+  <a style="text-decoration:none;"href="mailto:cerennssahinn@gmail.com">⚪️ Mail Me! </a>
+  <a href="https://www.linkedin.com/in/ceren-sahin/">⚫️ Connect with Me!</a>
 
