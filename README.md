@@ -58,10 +58,10 @@ I'd like to express my gratitude to Frontend Mentor for providing this challenge
 
 If you have any feedback or anything you would like to share, please reach out to me at 👇
 
-  <a href="mailto:cerennssahinn@gmail.com" style="margin-right: 10px; text-decoration: none; !important">
-    <img src="mail_dynamic_gradient.png" alt="Email Me" width="50">
-  </a>
-  <a href="https://www.linkedin.com/in/ceren-sahin/">
-    <img src="notify_heart_dynamic_gradient.png" alt="LinkedIn Profile" width="50">
-  </a>
+  <a href="mailto:cerennssahinn@gmail.com">⚪️</a>
+  <a href="https://www.linkedin.com/in/ceren-sahin/">⚫️</a>
+
+⚪️ cerennssahinn@gmail.com 
+⚫️ www.linkedin.com/in/ceren-sahin/
+
 
