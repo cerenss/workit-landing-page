@@ -1,0 +1,409 @@
+/* Font families */
+@font-face {
+  font-family: "Fraunces-VariableFont";
+  src: url("./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Fraunces-SemiBold";
+  src: url("./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-VariableFont";
+  src: url("./assets/fonts/manrope/Manrope-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url("./assets/fonts/manrope/static/Manrope-Regular.ttf")
+    format("truetype");
+}
+
+/* Font families end here */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Manrope-VariableFont", sans-serif;
+}
+
+h1,h2 {
+  font-family: "Fraunces-SemiBold", sans-serif;
+}
+
+/* Hero section */
+.hero {
+  background-color: #24053e;
+  width: 100%;
+  height: 425px;
+  border-radius: 0px 0px 100% 100% / 30%;
+  padding-top: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+    /* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+.apply-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+.apply-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 120%;
+    height: 2px;
+    background-color: #44FFA1;
+    transform: scale(1);
+    transition: transform 0.2s ease;
+}
+.apply-link:hover::after {
+    transform: scale(1.1);
+}
+.apply-link:hover {
+    color: #44FFA1;
+    transition: color 0.2s ease-in-out;
+}
+    /* Background */
+.bg-image {
+    width: 20%;
+    height: auto;
+    position: absolute;
+}
+
+.bg-1 {
+    top: 20%;
+    left: -8%;
+}
+
+.bg-2 {
+    top: 30%;
+    right: -7%;
+    scale: 0.5;
+}
+    /* CTA */
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 20%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.cta-heading {
+    color: white;
+    font-size: 3rem;
+    margin: 3% 0px;
+}
+.cta-button,
+.testimonial-button {
+    background-color: #44FFA1;
+    color: #24053e;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin: 3% 0px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+.cta-button:hover,
+.testimonial-button:hover {
+    background-color: transparent;
+    color: #44FFA1;
+    border: 2px solid #44FFA1;
+    transition: 0.2s ease-in-out;
+
+}
+.underlined {
+    position: relative;
+}
+.underlined::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #44FFA1;
+}
+.hero-image {
+    position: absolute;
+    padding: 10px;
+    width: 40%;
+    top: 70%;
+    left: 35%;
+}
+
+/* Items Section */
+
+.items-bg {
+    background-color: #FCF8FF;
+    width: 100%;
+    height: 450px;
+    border-radius: 0px 0px 100% 100% / 30%;
+    transform: scaleY(1.5);
+    z-index: -1;
+}
+.item-list {
+    z-index: 1;
+    position: absolute;
+    top: 425px;
+    padding: 20% 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.item {
+    padding: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item-heading {
+    font-family: 'Fraunces-SemiBold', sans-serif;
+    font-size: 2rem;
+    color: #24053e;
+}
+.item-text {
+    font-weight: 100;
+    color: #584D62;
+}
+.item-icon {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    border: 1px solid #24053e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Testimonials Section */
+.testimonial {
+    background-image: url(./assets/images/image-founder.webp);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vw;
+    background-position: 30% 10%;
+    padding: 10%;
+    height: 300px;
+    position: relative;
+    margin-top: 10%;
+}
+.testimonial-card {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #24053e;
+    color: white;
+    max-width: 50%;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+.testimonial-button {
+    align-self: flex-start;
+    width: 40%;
+    height: 2%;
+    font-size: small;
+    padding: 2%;
+    font-family: 'Manrope-VariableFont', sans-serif;
+    font-weight: bold;
+}
+.testimonial-bg {
+    position: absolute;
+    bottom: -10%;
+    right: 10%;
+}
+
+.testimonial-text {
+    font-family: "Manrope-VariableFont", sans-serif;
+    font-size: small;
+    line-height: 20px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-logo {
+    width: 100px;
+    height: 100px;
+
+    cursor: pointer;
+}
+#footer-logo-link {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-image: url(./assets/images/logo-dark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social-icons {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 2vw;
+   height: 2vw;
+   cursor: pointer;
+}
+.facebook{
+    background-image: url(./assets/images/icon-facebook.svg);
+}
+.twitter{
+    background-image: url(./assets/images/icon-twitter.svg);
+}
+.instagram{
+    background-image: url(./assets/images/icon-instagram.svg);
+}
+
+/* Media Queries */
+  /* Media Queries for Large Laptop */
+  @media only screen and (min-width: 1440px) {
+    /* CSS styles for large laptop devices */
+    .items-bg {
+        height: 500px;
+    }
+  }
+/* Media Queries for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS styles for tablet devices */
+    .items-bg {
+        height: 550px;
+    }
+    .item-list {
+        flex-direction: column;
+    }
+    .item {
+        flex-direction: row;
+        text-align: start;
+    }
+    .item-icon {
+        height: 50px;
+        max-width: 50px;
+        flex: 1;
+        margin-right: 25px;
+    }
+    .item-content {
+        flex: 4;
+    }
+    .testimonial {
+        background-position: 30% 40%;
+        background-size: 30vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 10%;
+    }
+    .testimonial-card {
+        top: 40%;
+        left: 40%;
+    }
+    .testimonial-bg {
+        width: 30%;
+        bottom: -15%;
+    }
+}
+  /* Media Queries for Mobile */
+  @media only screen and (max-width: 767px) {
+    /* CSS styles for mobile devices */
+    .hero {
+        height: 350px;
+    }
+    .hero-image {
+        width: 60%;
+        top: 80%;
+        left: 20%;
+    }
+    .cta-heading {
+        font-size: 2rem;
+        margin-top: 60px;
+        left: 0;
+    }
+    .cta-button {
+        padding: 10px;
+        font-size: 0.6rem;
+        font-weight: 100;
+    }
+    .items-bg {
+        height: 800px;
+        border-radius: 0px 0px 100% 100% / 10%;
+    }
+    .item-list {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .item-icon {
+        height: 50px;
+        max-width: 50px;
+    }
+    .testimonial {
+        background-position: 50% 50%;
+        background-size: 50vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 10%;
+        height: 500px;
+    }
+    .testimonial-card {
+        left: 0;
+        top: 60%;
+        max-width: 100%;
+        text-align: center;
+        padding: 5% 8%;
+    }
+    .testimonial-heading {
+        margin-bottom: 0;
+    }
+    .testimonial-bg {
+        display: none;
+    }
+    .testimonial-button {
+        align-self: center;
+        width: auto;
+    }
+    .footer-icon {
+        width: 6vw;
+        height: 6vw;
+    }
+
+  }

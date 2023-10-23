@@ -1,49 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Workit landing page</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
 
-  Apply for access
+    <title>Frontend Mentor | Workit landing page</title>
+  </head>
+  <body>
+    <section class="hero" id="hero-section">
+      <img src="./assets/images/bg-pattern-1.svg" class="bg-image bg-1" />
+      <img src="./assets/images/bg-pattern-2.svg" class="bg-image bg-2" />
+      <section class="navbar">
+        <div class="logo">
+          <img src="./assets/images/logo-light.svg" alt="logo" />
+        </div>
 
-  Data tailored to your needs.
-
-  Learn more
-  
-  1
-
-  Actionable insights
-  
-  Optimize your products, improve customer satisfaction and stay ahead of the competition 
-  with our product data analytics.
-
-  2
-
-  Data-driven decisions
-
-  Make data-driven decisions with our product data analytics. Our AI-generated reports help 
-  you unlock insights hidden in your product data.
-
-  3
-
-  Always affordable
-
-  Always affordable pricing that scales with your business. Get top-quality product data 
-  analytics services without hidden costs or unexpected fees.
-
-  Be the first to test
-
-  Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
-  beta tester for our app and kickstart your company. Apply for access below and I’ll be 
-  in touch to schedule a call.
-
-  Apply for access
-
-</body>
+        <a href="#apply-for-access" class="apply-link">Apply for access</a>
+      </section>
+      <div class="cta">
+        <h1 class="cta-heading">
+          Data&nbsp;<span class="underlined">tailored&nbsp;</span>to<br>your&nbsp;needs.
+        </h1>
+        <button class="cta-button">Learn more</button>
+        <img
+          class="hero-image"
+          src="./assets/images/image-hero.webp"
+          alt="hero image"
+        />
+      </div>
+    </section>
+    <section class="items">
+      <div class="items-bg"></div>
+      <div class="item-list">
+        <div class="item">
+          <div class="item-icon" >1</div>
+          <div class="item-content">
+            <h2 class="item-heading">Actionable insights</h2>
+            <p class="item-text">
+              Optimize your products, improve customer satisfaction and stay ahead
+              of the competition with our product data analytics.
+            </p>
+          </div>
+          </div>
+        <div class="item">
+          <div class="item-icon" >2</div>
+          <div class="item-content">
+            <h2 class="item-heading">Data-driven decisions</h2>
+            <p class="item-text">
+              Make data-driven decisions with our product data analytics. Our
+              AI-generated reports help you unlock insights hidden in your product
+              data.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-icon" >3</div>
+          <div class="item-content">
+            <h2 class="item-heading">Always affordable</h2>
+            <p class="item-text">
+              Always affordable pricing that scales with your business. Get
+              top-quality product data analytics services without hidden costs or
+              unexpected fees.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="testimonial-card">
+        <img src="./assets/images/bg-pattern-3.svg" class="bg-image testimonial-bg" />
+        <h2 class="testimonial-heading">Be the first to test</h2>
+        <p class="testimonial-text">
+          Hi, I'm Louis Graham, the founder of the company. Book a demo call
+          with me to become a beta tester for our app and kickstart your
+          company. Apply for access below and I’ll be in touch to schedule a
+          call.
+        </p>
+        <button class="testimonial-button" id="apply-for-access">Apply for access</button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-logo">
+        <a href="#hero-section" id="footer-logo-link"></a>
+      </div>
+      <ul class="social-icons">
+        <li class="footer-icon facebook"><a href="#"></a></li>
+        <li class="footer-icon twitter"><a href="#"></a></li>
+        <li class="footer-icon instagram"><a href="#"></a></li>
+      </ul>
+    </footer>
+    
+  </body>
 </html>
