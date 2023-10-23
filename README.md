@@ -28,7 +28,7 @@ This project was built using the following technologies:
 - CSS
 
 ### Design Preview
-![Design Preview](preview.jpg)
+<img src="preview.jpg" alt="Design Preview" width="100">
 
 The challenge included a design preview to replicate. This design served as the blueprint for the project, and the goal was to match it as closely as possible. 
 
@@ -58,8 +58,12 @@ I'd like to express my gratitude to Frontend Mentor for providing this challenge
 
 If you have any feedback or anything you would like to share, please reach out to me at 
 
-[![mail](mail_dynamic_gradient.png)(cerennssahinn@gmail.com)]
+<a href="mailto:cerennssahinn@gmail.com">
+  <img src="mail_dynamic_gradient.png" alt="Email Me" width="100">
+</a>
 
 or
 
-[![linkedin](notify_heart_dynamic_gradient.png)](https://www.linkedin.com/in/ceren-sahin/)
+<a href="https://www.linkedin.com/in/ceren-sahin/">
+  <img src="notify_heart_dynamic_gradient.png" alt="LinkedIn Profile" width="100">
+</a>
