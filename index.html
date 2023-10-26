@@ -15,9 +15,10 @@
     <title>Frontend Mentor | Workit landing page</title>
   </head>
   <body>
+    <header>
     <section class="hero" id="hero-section">
-      <img src="./assets/images/bg-pattern-1.svg" class="bg-image bg-1" />
-      <img src="./assets/images/bg-pattern-2.svg" class="bg-image bg-2" />
+      <img src="./assets/images/bg-pattern-1.svg" class="bg-image bg-1" alt="background pattern 1"/>
+      <img src="./assets/images/bg-pattern-2.svg" class="bg-image bg-2" alt="background pattern 2"/>
       <section class="navbar">
         <div class="logo">
           <img src="./assets/images/logo-light.svg" alt="logo" />
@@ -37,6 +38,8 @@
         />
       </div>
     </section>
+  </header>
+  <main>
     <section class="items">
       <div class="items-bg"></div>
       <div class="item-list">
@@ -76,7 +79,7 @@
     </section>
     <section class="testimonial">
       <div class="testimonial-card">
-        <img src="./assets/images/bg-pattern-3.svg" class="bg-image testimonial-bg" />
+        <img src="./assets/images/bg-pattern-3.svg" class="bg-image testimonial-bg" alt="background pattern 3"/>
         <h2 class="testimonial-heading">Be the first to test</h2>
         <p class="testimonial-text">
           Hi, I'm Louis Graham, the founder of the company. Book a demo call
@@ -87,14 +90,15 @@
         <button class="testimonial-button" id="apply-for-access">Apply for access</button>
       </div>
     </section>
+  </main>
     <footer>
       <div class="footer-logo">
-        <a href="#hero-section" id="footer-logo-link"></a>
+        <a href="#hero-section" id="footer-logo-link" aria-label="Go to top of the page"></a>
       </div>
       <ul class="social-icons">
-        <li class="footer-icon facebook"><a href="#"></a></li>
-        <li class="footer-icon twitter"><a href="#"></a></li>
-        <li class="footer-icon instagram"><a href="#"></a></li>
+        <li class="footer-icon facebook"><a href="#" aria-label="Go to facebook page"></a></li>
+        <li class="footer-icon twitter"><a href="#" aria-label="Go to twitter page"></a></li>
+        <li class="footer-icon instagram"><a href="#" aria-label="Go to instagram page"></a></li>
       </ul>
     </footer>
     
